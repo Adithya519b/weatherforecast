@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.querySelector(".feels").innerHTML = Response.weather[0].main;
                 console.log("clear")
             } else if (Response.weather[0].main == "Clouds") {
-                weathericon.src = "weatherimgs2/cloudy.png"; // Update to relative path
+                weathericon.src = "weatherimgs/cloudy.png"; // Update to relative path
                 document.querySelector(".feels").innerHTML = Response.weather[0].main;
                 console.log("cloudy")
             } else if (Response.weather[0].main == "Rain") {
